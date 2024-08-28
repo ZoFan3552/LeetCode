@@ -1,7 +1,10 @@
-package sort;
+package algorithm.sort;
 
 import java.util.Arrays;
 
+/**
+ * 归并排序
+ */
 public class MergeSort {
     public static void  mergeSort(int[] arr , int left, int right) {
         if (left < right){

@@ -1,7 +1,10 @@
-package sort;
+package algorithm.sort;
 
 import java.util.Arrays;
 
+/**
+ * 快速排序
+ */
 public class QuickSort {
 
     public static void quickSort(int[] nums , int left , int right){
